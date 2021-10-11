@@ -1,4 +1,4 @@
-module bitbucket.org/avd/go-ipc
+module github.com/aybabtme/go-ipc
 
 go 1.12
 
