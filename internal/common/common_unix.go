@@ -5,7 +5,7 @@
 package common
 
 import (
-	"errors"
+	"fmt"
 	"os"
 	"syscall"
 	"time"
@@ -39,13 +39,13 @@ func KeyForName(name string) (Key, error) {
 	name = TmpFilename(name)
 	file, err := os.Create(name)
 	if err != nil {
-		return 0, errors.New("invalid name for key")
+		return 0, fmt.Errorf("creating file for key: %v", err)
 	}
 	file.Close()
 	k, err := ftok(name)
 	if err != nil {
 		os.Remove(name)
-		return 0, errors.New("invalid name for key")
+		return 0, fmt.Errorf("stating file for key: %v", err)
 	}
 	return k, nil
 }
