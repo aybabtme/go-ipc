@@ -12,10 +12,10 @@ import (
 	"time"
 	"unsafe"
 
-	"bitbucket.org/avd/go-ipc/internal/allocator"
-	"bitbucket.org/avd/go-ipc/internal/common"
-	testutil "bitbucket.org/avd/go-ipc/internal/test"
-	ipc_sync "bitbucket.org/avd/go-ipc/sync"
+	"github.com/aybabtme/go-ipc/internal/allocator"
+	"github.com/aybabtme/go-ipc/internal/common"
+	testutil "github.com/aybabtme/go-ipc/internal/test"
+	ipc_sync "github.com/aybabtme/go-ipc/sync"
 
 	"github.com/stretchr/testify/assert"
 )

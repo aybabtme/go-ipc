@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"bitbucket.org/avd/go-ipc/internal/allocator"
+	"github.com/aybabtme/go-ipc/internal/allocator"
 	"github.com/pkg/errors"
 )
 

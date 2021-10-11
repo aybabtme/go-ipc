@@ -6,8 +6,8 @@ import (
 	"os"
 	"runtime"
 
-	"bitbucket.org/avd/go-ipc/internal/common"
-	"bitbucket.org/avd/go-ipc/mmf"
+	"github.com/aybabtme/go-ipc/internal/common"
+	"github.com/aybabtme/go-ipc/mmf"
 	"github.com/pkg/errors"
 )
 

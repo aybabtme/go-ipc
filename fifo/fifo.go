@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"bitbucket.org/avd/go-ipc/internal/common"
+	"github.com/aybabtme/go-ipc/internal/common"
 )
 
 const (

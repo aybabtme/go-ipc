@@ -5,8 +5,8 @@ package helper
 import (
 	"os"
 
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
+	"github.com/aybabtme/go-ipc/mmf"
+	"github.com/aybabtme/go-ipc/shm"
 	"github.com/pkg/errors"
 )
 

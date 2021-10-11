@@ -12,9 +12,9 @@ import (
 	"reflect"
 	"strconv"
 
-	testutil "bitbucket.org/avd/go-ipc/internal/test"
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
+	testutil "github.com/aybabtme/go-ipc/internal/test"
+	"github.com/aybabtme/go-ipc/mmf"
+	"github.com/aybabtme/go-ipc/shm"
 )
 
 const (

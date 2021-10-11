@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/internal/common"
-	"bitbucket.org/avd/go-ipc/internal/helper"
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
-	ipc_sync "bitbucket.org/avd/go-ipc/sync"
+	"github.com/aybabtme/go-ipc/internal/common"
+	"github.com/aybabtme/go-ipc/internal/helper"
+	"github.com/aybabtme/go-ipc/mmf"
+	"github.com/aybabtme/go-ipc/shm"
+	ipc_sync "github.com/aybabtme/go-ipc/sync"
 
 	"github.com/pkg/errors"
 )

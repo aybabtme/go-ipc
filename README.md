@@ -1,10 +1,10 @@
-A clone of https://godoc.org/bitbucket.org/avd/go-ipc with some minor changes.
+A clone of https://godoc.org/github.com/aybabtme/go-ipc with some minor changes.
 
 # go-ipc: A library for inter-process communication written in pure Go.
 
 This package gives you access to os-native ipc mechanisms on Linux, OSX, FreeBSD, and Windows.
 
-[![CircleCI](https://circleci.com/bb/avd/go-ipc/tree/master.svg?style=svg)](https://circleci.com/bb/avd/go-ipc/tree/master) [![GoDoc](https://godoc.org/bitbucket.org/avd/go-ipc?status.svg)](https://godoc.org/bitbucket.org/avd/go-ipc) [![Go Report Card](https://goreportcard.com/badge/bitbucket.org/avd/go-ipc)](https://goreportcard.com/report/bitbucket.org/avd/go-ipc)
+[![CircleCI](https://circleci.com/bb/avd/go-ipc/tree/master.svg?style=svg)](https://circleci.com/bb/avd/go-ipc/tree/master) [![GoDoc](https://godoc.org/github.com/aybabtme/go-ipc?status.svg)](https://godoc.org/github.com/aybabtme/go-ipc) [![Go Report Card](https://goreportcard.com/badge/github.com/aybabtme/go-ipc)](https://goreportcard.com/report/github.com/aybabtme/go-ipc)
 
 - Pure Go implementation, no cgo is required.
 - Works on Linux, OSX, FreeBSD, and Windows (x86 or x86-64).
@@ -25,7 +25,7 @@ This package gives you access to os-native ipc mechanisms on Linux, OSX, FreeBSD
 2. Run
 
 ```
-go get -u bitbucket.org/avd/go-ipc
+go get -u github.com/aybabtme/go-ipc
 ```
 
 ## System requirements
@@ -35,7 +35,7 @@ go get -u bitbucket.org/avd/go-ipc
 
 ## Documentation
 
-Documentation can be found at [`godoc`](https://godoc.org/bitbucket.org/avd/go-ipc).
+Documentation can be found at [`godoc`](https://godoc.org/github.com/aybabtme/go-ipc).
 
 ## Notes
 
@@ -50,8 +50,8 @@ it is even not guaranteed, that it builds correctly on all platforms. The librar
 Any contributions are welcome.
 Feel free to:
 
-- create [`issues`](https://bitbucket.org/avd/go-ipc/issues/new)
-- open [`pull requests`](https://bitbucket.org/avd/go-ipc/pull-requests/new)
+- create [`issues`](https://github.com/aybabtme/go-ipc/issues/new)
+- open [`pull requests`](https://github.com/aybabtme/go-ipc/pull-requests/new)
 
 Before opening a PR, be sure, that:
 

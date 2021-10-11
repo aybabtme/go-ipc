@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.org/avd/go-ipc/internal/test"
+	testutil "github.com/aybabtme/go-ipc/internal/test"
 
 	"github.com/stretchr/testify/assert"
 )

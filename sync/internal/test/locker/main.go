@@ -10,11 +10,11 @@ import (
 	"sync"
 	"unsafe"
 
-	"bitbucket.org/avd/go-ipc/internal/allocator"
-	testutil "bitbucket.org/avd/go-ipc/internal/test"
-	"bitbucket.org/avd/go-ipc/mmf"
-	"bitbucket.org/avd/go-ipc/shm"
-	ipc_sync "bitbucket.org/avd/go-ipc/sync"
+	"github.com/aybabtme/go-ipc/internal/allocator"
+	testutil "github.com/aybabtme/go-ipc/internal/test"
+	"github.com/aybabtme/go-ipc/mmf"
+	"github.com/aybabtme/go-ipc/shm"
+	ipc_sync "github.com/aybabtme/go-ipc/sync"
 )
 
 var (

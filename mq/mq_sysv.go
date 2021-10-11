@@ -8,7 +8,7 @@ import (
 	"os"
 	"unsafe"
 
-	"bitbucket.org/avd/go-ipc/internal/common"
+	"github.com/aybabtme/go-ipc/internal/common"
 
 	"github.com/pkg/errors"
 )
